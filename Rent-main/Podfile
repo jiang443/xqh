@@ -1,0 +1,86 @@
+platform :ios, '9.0'
+use_modular_headers!
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'Rent' do
+  
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    #tabbar样式
+    #pod 'ESTabBarController-swift'
+    #banner滚动图片
+    #pod 'FSPagerView'
+    pod 'Moya', '13.0.1'
+    pod 'HandyJSON', '5.0.0'
+
+    pod 'SwiftyJSON'
+    # 分页
+    #pod 'DNSPageView'
+    #跑马灯
+    #pod 'JXMarqueeView'
+    #滚动页
+    pod 'MJRefresh'
+    #pod 'SkeletonView'
+    #消息提示
+    #pod 'SwiftMessages'
+    #pod 'YYKit'
+    pod 'SVProgressHUD'
+    #播放网络音频
+    #pod 'StreamingKit'
+    #保存在文件的
+    pod 'SwiftyUserDefaults', '3.0.1'
+    #下拉框
+    pod 'DropDown'
+    pod 'BRPickerView'
+
+    ###================== OC Libs =====================
+
+    pod 'Toast', '~> 4.0.0'     #应用扩展中需要适配iphoneX
+    pod 'ZYCornerRadius', '~> 1.0.2'
+    pod 'MLLabel'
+    pod 'KSPhotoBrowser'
+    pod 'KMPlaceholderTextView', '~> 1.4.0'
+    #空白页
+    pod 'DZNEmptyDataSet'
+    pod 'Bugly'
+
+    #友盟的
+    pod 'UMCAnalytics'
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCShare/Social/ReducedWeChat'
+
+    #YY组件
+    pod 'YYText'
+    pod 'YYImage'
+
+    pod 'YBPopupMenu'
+
+    #MTA/在线参数
+    pod 'QQ_MTA'
+
+    pod 'FSTextView'
+    
+    pod 'Segmentio'
+
+    #路由
+    pod 'MGJRouter'
+    
+    pod 'IQKeyboardManagerSwift'
+
+    #组件
+    pod 'BSPush', :path => '../libSet/BSPush/'
+    pod 'BSBase', :path => '../libSet/BSBase/'
+    pod 'BSCommon', :path => '../libSet/BSCommon/'
+    pod 'BSPages', :path => '../libSet/BSPages/'
+    pod 'BSChat', :path => '../libSet/BSChat/'
+    pod 'KeychainManager', :path => '../libSet/KeychainManager/'
+    pod 'TZImagePicker_Local', :path => '../libSet/TZImagePicker_Local/' #, :modular_headers => false
+    pod 'BSStore', :path => '../libSet/BSStore/'
+    pod 'YYReach', :path => '../libSet/YYReach/'
+#    pod 'LFMediaEditingController', :path => '../libSet/LFMediaEditingController/'
+
+    
+end
+
