@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>main</key>
+	<dict>
+		<key>devConfig</key>
+		<dict>
+			<key>api</key>
+			<string>http://47.115.94.36:9001</string>
+			<key>h5</key>
+			<string>http://47.115.94.36:9001</string>
+			<key>wx</key>
+			<string>http://47.115.94.36:9001</string>
+			<key>h5_domain</key>
+			<string>http://47.115.94.36:9001</string>
+		</dict>
+		<key>testConfig</key>
+		<dict>
+			<key>api</key>
+			<string>http://119.23.143.240:9001</string>
+			<key>h5</key>
+			<string>http://18k925i398.iok.la/test/web/app/modules/doctor.html#</string>
+			<key>wx</key>
+			<string>http://18k925i398.iok.la/test/web/mp/modules</string>
+			<key>h5_domain</key>
+			<string>http://18k925i398.iok.la</string>
+		</dict>
+		<key>proConfig</key>
+		<dict>
+			<key>api</key>
+			<string>http://119.23.143.240:9001</string>
+			<key>h5</key>
+			<string>http://app-h5.4001128178.cn/modules/doctor.html#</string>
+			<key>wx</key>
+			<string>http://wx.4001128178.cn/modules</string>
+			<key>file</key>
+			<string>http://xt.4001128178.cn</string>
+			<key>h5_domain</key>
+			<string>http://app-h5.4001128178.cn</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

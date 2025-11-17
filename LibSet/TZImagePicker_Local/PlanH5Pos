@@ -1,0 +1,44 @@
+
+{
+	"all": {	//整体
+		"top": 0,
+		"bottom": 1731.09375,
+		"clientHeight": 1797
+	},
+	"followPlanHeader": {	//头部
+		"top": 0,
+		"bottom": 62.34375,
+		"clientHeight": 1797
+	},
+	"followPlanMeasurement": {	//血糖测量方案
+		"top": 65,		//模块顶部位置
+		"bottom": 674.765625,	//模块底部位置
+		"clientHeight": 1797	//页面总高度，包含底部按钮
+	},
+	"followPlanControlTarget": {	//控糖目标
+		"top": 674,
+		"bottom": 1085.6875,
+		"clientHeight": 1797
+	},
+	"followPlanMedication": {	//用药方案备忘
+		"top": 1086,
+		"bottom": 1205.875,
+		"clientHeight": 1797
+	},
+	"followPlanTotalHeatControl": {		//总热量控制
+		"top": 1206,
+		"bottom": 1486.921875,
+		"clientHeight": 1797
+	},
+	"followPlanReVisitPlan": {	//复诊方案
+		"top": 1487,
+		"bottom": 1704.8125,
+		"clientHeight": 1797
+	},
+	"followPlanOutOfHospitalCare": {	//院外照护方案
+		"top": 1705,
+		"bottom": 1705,
+		"clientHeight": 1797
+	}
+}
+
